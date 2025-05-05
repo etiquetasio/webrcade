@@ -176,7 +176,7 @@ RUN echo "EnableMMAP off" >> /etc/apache2/apache2.conf && \
 RUN mkdir -p /var/www/html/content
 
 # Expose content
-VOLUME ["/var/www/html/content"]
+# VOLUME ["/var/www/html/content"]
 
 # Export ports
 EXPOSE 80 443
